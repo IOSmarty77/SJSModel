@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SJSPM™ — Sustainable Job Search Performance Model</title>
+
+<!-- Social Media Meta Tags (Open Graph) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="SJSPM™ — Sustainable Job Search Performance Model">
+<meta property="og:description" content="A six-pillar applied framework for high-sustainability job search performance. Map the behavioral, cognitive, and energetic architecture of successful employment transitions while preserving functional capacity.">
+<meta property="og:url" content="https://yourdomain.com/sjspm.html">
+<meta property="og:image" content="https://yourdomain.com/images/sjspm-og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Career Energy Management Framework">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SJSPM™ — Sustainable Job Search Performance Model">
+<meta name="twitter:description" content="A six-pillar applied framework for high-sustainability job search performance. Operationalizes Career Energy Management™ theory within occupational transition.">
+<meta name="twitter:image" content="https://yourdomain.com/images/sjspm-twitter-image.png">
+<meta name="twitter:creator" content="@yourhandle">
+<meta name="twitter:site" content="@yoursite">
+
+<!-- LinkedIn Meta Tags -->
+<meta property="linkedin:title" content="SJSPM™ — Sustainable Job Search Performance Model">
+
+<!-- Additional SEO Meta Tags -->
+<meta name="description" content="SJSPM™: A six-pillar applied framework for sustainable job search performance. Energy-mediated approach to employment transitions.">
+<meta name="keywords" content="job search, career energy management, performance model, employment, occupational transition, CEM framework">
+<meta name="author" content="Occupational Compliance and Readiness Consulting LLC">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0d0c0a">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://yourdomain.com/sjspm.html">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' fill='%23c9863a'>§</text></svg>">
+
+<!-- Structured Data (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "SJSPM™ — Sustainable Job Search Performance Model",
+  "description": "A six-pillar applied framework for high-sustainability job search performance derived from Career Energy Management™ theory.",
+  "url": "https://yourdomain.com/sjspm.html",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://yourdomain.com/images/sjspm-og-image.png",
+    "width": 1200,
+    "height": 630
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Occupational Compliance and Readiness Consulting LLC"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Career Energy Management Framework"
+  },
+  "datePublished": "2026-06-26",
+  "inLanguage": "en-US"
+}
+</script>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --ink:         #0d0c0a;
+  --paper:       #f6f3ee;
+  --surface:     #ffffff;
+  --warm-mid:    #e5dfd4;
+  --rule:        #d0c9bc;
+  --muted:       #7a7060;
+
+  /* Pillar palette — each pillar gets its own hue */
+  --p1: #1a6b5a;   /* Energy Preservation — deep teal */
+  --p1l: #e8f4f1;
+  --p2: #b5530a;   /* Strategic Targeting — burnt sienna */
+  --p2l: #fdf0e6;
+  --p3: #2d5fa6;   /* Cognitive Ergonomics — indigo */
+  --p3l: #eaf0fb;
+  --p4: #7b3fa0;   /* Behavioral Sustainability — plum */
+  --p4l: #f4edfb;
+  --p5: #8a6c00;   /* Career Capital — gold */
+  --p5l: #fdf8e1;
+  --p6: #c03a3a;   /* Life Experience Preservation — crimson */
+  --p6l: #fdeaea;
+
+  --amber: #c9863a;
+  --amber-pale: #faf2e4;
+  --slate: #3a3f4a;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+/* ── SCROLL PROGRESS ── */
+#prog {
+  position: fixed; top: 0; left: 0;
+  height: 3px; background: var(--amber);
+  z-index: 1000; width: 0; transition: width .1s;
+}
+
+/* ── NAV ── */
+nav {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--ink);
+  display: flex; align-items: center; gap: 0;
+  padding: 0 2rem; height: 48px;
+  border-bottom: 3px solid var(--amber);
+}
+.nav-brand {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px; color: #c8b898;
+  letter-spacing: .14em; text-transform: uppercase;
+  margin-right: auto;
+}
+nav a {
+  color: #a09888; text-decoration: none;
+  font-size: 10px; letter-spacing: .08em; text-transform: uppercase;
+  padding: 0 .9rem; height: 48px;
+  display: flex; align-items: center;
+  border-left: 1px solid #222018;
+  transition: color .2s, background .2s;
+}
+nav a:hover { color: var(--amber); background: #1a1816; }
+
+/* ── HERO ── */
+.hero {
+  background: var(--ink);
+  color: var(--paper);
+  padding: 5rem 4rem 3.5rem;
+  position: relative; overflow: hidden;
+}
+.hero-grid {
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(201,134,58,.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(201,134,58,.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+.hero-inner { position: relative; max-width: 900px; }
+.hero-parent {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px; letter-spacing: .2em; text-transform: uppercase;
+  color: var(--amber); margin-bottom: .75rem;
+  display: flex; align-items: center; gap: .75rem;
+}
+.hero-parent::before { content: '▲'; font-size: 7px; }
+h1.hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.2rem,5vw,4rem);
+  font-weight: 900; line-height: 1.05;
+  margin-bottom: .5rem;
+}
+h1.hero-title em { color: var(--amber); font-style: italic; }
+.hero-abbr {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px; color: #7a7060; letter-spacing: .18em;
+  margin-bottom: 1.5rem;
+}
+.hero-sub {
+  max-width: 640px; font-size: .95rem;
+  color: #b0a090; line-height: 1.65;
+  margin-bottom: 2.5rem;
+}
+.hero-pillars {
+  display: flex; flex-wrap: wrap; gap: .5rem;
+}
+.hero-pill {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px; letter-spacing: .1em; text-transform: uppercase;
+  padding: .3rem .75rem; border: 1px solid;
+}
+.hp1 { border-color: var(--p1); color: var(--p1); }
+.hp2 { border-color: var(--p2); color: var(--p2); }
+.hp3 { border-color: var(--p3); color: var(--p3); }
+.hp4 { border-color: var(--p4); color: var(--p4); }
+.hp5 { border-color: var(--p5); color: var(--p5); }
+.hp6 { border-color: var(--p6); color: var(--p6); }
+
+/* ── LAYOUT ── */
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 2rem; }
+section { padding: 4rem 0; border-bottom: 1px solid var(--rule); }
+section:last-of-type { border-bottom: none; }
+
+.sec-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px; letter-spacing: .2em; text-transform: uppercase;
+  color: var(--amber); margin-bottom: 1.25rem;
+  display: flex; align-items: center; gap: .6rem;
+}
+.sec-label span {
+  background: var(--amber); color: var(--ink);
+  padding: 1px 6px; font-size: 8px; font-weight: 600;
+}
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.5rem,3vw,2.2rem);
+  font-weight: 700; line-height: 1.2;
+  margin-bottom: 1.25rem;
+}
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem; font-weight: 700;
+  margin-bottom: .5rem;
+}
+p { color: var(--slate); margin-bottom: .9rem; }
+p:last-child { margin-bottom: 0; }
+
+/* ── SYSTEMS DIAGRAM ── */
+.sys-diagram {
+  margin: 2.5rem 0;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  gap: 0;
+  position: relative;
+}
+
+/* centre spine */
+.spine {
+  display: flex; flex-direction: column;
+  align-items: center; gap: 0;
+}
+.spine-node {
+  background: var(--ink); color: var(--paper);
+  padding: .6rem 2rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px; letter-spacing: .15em; text-transform: uppercase;
+  border: 2px solid var(--amber);
+  text-align: center; position: relative;
+}
+.spine-arrow {
+  width: 2px; height: 28px;
+  background: var(--amber); margin: 0 auto;
+}
+
+/* pillar ring */
+.pillar-ring {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1px;
+  border: 1px solid var(--rule);
+  margin: 2rem 0 0;
+  background: var(--rule);
+}
+.pillar-card {
+  background: var(--surface);
+  padding: 1.5rem 1.25rem;
+  cursor: pointer;
+  transition: background .2s;
+  position: relative;
+  overflow: hidden;
+}
+.pillar-card::before {
+  content: '';
+  position: absolute; top: 0; left: 0;
+  width: 4px; height: 100%;
+}
+.pc1::before { background: var(--p1); }
+.pc2::before { background: var(--p2); }
+.pc3::before { background: var(--p3); }
+.pc4::before { background: var(--p4); }
+.pc5::before { background: var(--p5); }
+.pc6::before { background: var(--p6); }
+
+.pillar-card:hover { background: var(--paper); }
+.pillar-id {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px; letter-spacing: .12em;
+  margin-bottom: .4rem;
+}
+.pc1 .pillar-id { color: var(--p1); }
+.pc2 .pillar-id { color: var(--p2); }
+.pc3 .pillar-id { color: var(--p3); }
+.pc4 .pillar-id { color: var(--p4); }
+.pc5 .pillar-id { color: var(--p5); }
+.pc6 .pillar-id { color: var(--p6); }
+
+.pillar-card h3 { font-size: .9rem; color: var(--ink); margin-bottom: .4rem; }
+.pillar-card p { font-size: .78rem; color: var(--muted); margin: 0; line-height: 1.5; }
+
+/* ── DETAIL PANELS ── */
+.pillar-panels { margin: 2rem 0; }
+.panel {
+  display: none;
+  border: 1px solid var(--rule);
+  background: var(--surface);
+  margin-bottom: 1px;
+}
+.panel.open { display: block; }
+.panel-header {
+  display: flex; align-items: center; gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+.panel-swatch {
+  width: 12px; height: 40px; flex-shrink: 0; border-radius: 1px;
+}
+.panel-header h3 { margin: 0; font-size: 1.05rem; color: var(--ink); }
+.panel-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 8px; letter-spacing: .12em; color: var(--muted);
+  margin-left: auto;
+}
+.panel-body { padding: 0 1.5rem 1.75rem 3.5rem; }
+.panel-grid {
+  display: grid; grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem; margin-top: 1.25rem;
+}
+.panel-cell {
+  padding: 1rem; border-left: 3px solid;
+  background: var(--paper);
+}
+.panel-cell h4 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 8px; letter-spacing: .12em; text-transform: uppercase;
+  margin-bottom: .6rem;
+}
+.panel-cell ul { list-style: none; }
+.panel-cell ul li {
+  font-size: .8rem; color: var(--slate);
+  padding: .18rem 0 .18rem 1rem; position: relative;
+  line-height: 1.45;
+}
+.panel-cell ul li::before {
+  content: '›'; position: absolute; left: 0;
+  font-size: .9rem; line-height: 1.3;
+}
+
+/* ── FEEDBACK LOOPS ── */
+.loop-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 1.5rem; margin: 2rem 0;
+}
+.loop-card {
+  padding: 1.5rem;
+  border: 1px solid var(--rule);
+  background: var(--surface);
+  position: relative;
+}
+.loop-type {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 8px; letter-spacing: .15em; text-transform: uppercase;
+  padding: 2px 6px; display: inline-block;
+  margin-bottom: .75rem;
+}
+.loop-reinforce { background: #dcfce7; color: #166534; }
+.loop-degrade   { background: #fee2e2; color: #991b1b; }
+.loop-card h3 { font-size: .95rem; margin-bottom: .5rem; }
+.loop-chain {
+  display: flex; flex-wrap: wrap;
+  align-items: center; gap: .35rem;
+  margin: .75rem 0; font-size: .78rem;
+}
+.loop-node {
+  background: var(--paper); border: 1px solid var(--rule);
+  padding: .2rem .55rem; color: var(--slate);
+  font-size: .75rem;
+}
+.loop-arr { color: var(--amber); font-size: .9rem; font-weight: 700; }
+.loop-card p { font-size: .82rem; color: var(--muted); margin-top: .5rem; }
+
+/* ── FAILURE POINTS ── */
+.failure-table {
+  width: 100%; border-collapse: collapse;
+  margin: 1.5rem 0; font-size: .82rem;
+}
+.failure-table th {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 8px; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--muted); text-align: left;
+  padding: .5rem .75rem; border-bottom: 2px solid var(--rule);
+  background: var(--paper);
+}
+.failure-table td {
+  padding: .75rem; border-bottom: 1px solid var(--warm-mid);
+  color: var(--slate); vertical-align: top; line-height: 1.5;
+}
+.failure-table tr:last-child td { border-bottom: none; }
+.fp-badge {
+  display: inline-block;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 8px; padding: 2px 6px; letter-spacing: .08em;
+  color: white; border-radius: 1px;
+}
+.sev-high   { background: #991b1b; }
+.sev-med    { background: #92400e; }
+.sev-low    { background: #1e40af; }
+
+/* ── PROTECTIVE FACTORS ── */
+.pf-grid {
+  display: grid; grid-template-columns: repeat(3,1fr);
+  gap: 1rem; margin: 1.5rem 0;
+}
+.pf-card {
+  padding: 1.25rem; border: 1px solid var(--rule);
+  background: var(--surface);
+}
+.pf-icon {
+  font-size: 1.5rem; margin-bottom: .5rem;
+}
+.pf-card h3 { font-size: .88rem; color: var(--ink); margin-bottom: .4rem; }
+.pf-card p  { font-size: .78rem; color: var(--muted); margin: 0; line-height: 1.5; }
+
+/* ── INTERACTION MAP ── */
+.imap {
+  margin: 2rem 0;
+  overflow-x: auto;
+}
+.imap-inner {
+  min-width: 640px;
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  padding: 2rem;
+}
+.imap-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px; letter-spacing: .15em; text-transform: uppercase;
+  color: var(--muted); text-align: center; margin-bottom: 1.5rem;
+}
+
+/* SVG interaction diagram */
+svg.diagram { width: 100%; height: auto; display: block; }
+
+/* ── OUTCOMES ── */
+.outcomes-split {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 2rem; margin: 2rem 0;
+}
+.outcome-col { }
+.outcome-col-header {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px; letter-spacing: .15em; text-transform: uppercase;
+  padding: .5rem .75rem; margin-bottom: 1rem;
+}
+.beh-header { background: var(--p3); color: white; }
+.emp-header { background: var(--p1); color: white; }
+.outcome-item {
+  display: flex; gap: .75rem; align-items: flex-start;
+  padding: .75rem 0; border-bottom: 1px solid var(--warm-mid);
+}
+.outcome-item:last-child { border-bottom: none; }
+.outcome-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  flex-shrink: 0; margin-top: .42rem;
+}
+.od-beh { background: var(--p3); }
+.od-emp { background: var(--p1); }
+.outcome-text h4 { font-size: .85rem; color: var(--ink); margin-bottom: .15rem; font-family: 'Inter',sans-serif; font-weight: 600; }
+.outcome-text p  { font-size: .78rem; color: var(--muted); margin: 0; line-height: 1.45; }
+
+/* ── THEORY BRIDGE ── */
+.bridge {
+  background: var(--ink); color: var(--paper);
+  padding: 2.5rem 3rem; margin: 2rem 0;
+  border-left: 4px solid var(--amber);
+}
+.bridge p {
+  font-family: 'Playfair Display', serif;
+  font-style: italic; font-size: 1rem;
+  color: #c8baa8; line-height: 1.7;
+}
+.bridge .cite {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 8px; letter-spacing: .12em;
+  color: var(--amber); margin-top: .75rem;
+  font-style: normal; display: block;
+}
+
+/* ── FOOTER ── */
+footer {
+  background: var(--ink); color: var(--muted);
+  padding: 2rem 4rem;
+  display: flex; align-items: center;
+  justify-content: space-between; flex-wrap: wrap; gap: 1rem;
+}
+footer .fb { font-family: 'Playfair Display', serif; font-size: 1.05rem; color: var(--paper); }
+footer .fb em { color: var(--amber); font-style: italic; }
+footer .fm { font-family: 'JetBrains Mono', monospace; font-size: 9px; letter-spacing: .1em; text-align: right; line-height: 1.8; }
+
+@media(max-width:700px){
+  .hero { padding: 3rem 1.5rem; }
+  .wrap { padding: 0 1.25rem; }
+  section { padding: 3rem 0; }
+  .pillar-ring { grid-template-columns: 1fr 1fr; }
+  .panel-grid { grid-template-columns: 1fr; }
+  .loop-grid { grid-template-columns: 1fr; }
+  .pf-grid { grid-template-columns: 1fr 1fr; }
+  .outcomes-split { grid-template-columns: 1fr; }
+  nav a { display: none; }
+  footer { padding: 1.5rem; }
+  footer .fm { text-align: left; }
+}
+</style>
+</head>
+<body>
+
+<div id="prog"></div>
+
+<!-- NAV -->
+<nav>
+  <span class="nav-brand">SJSPM™ · Phase II · Applied Framework · Under CEM™</span>
+  <a href="#overview">Overview</a>
+  <a href="#pillars">Six Pillars</a>
+  <a href="#loops">Feedback Loops</a>
+  <a href="#failure">Failure Points</a>
+  <a href="#protective">Protective Factors</a>
+  <a href="#interaction">Pillar Interaction</a>
+  <a href="#outcomes">Outcomes</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-inner">
+    <div class="hero-parent">Career Energy Management™ (CEM™) · Applied Framework</div>
+    <h1 class="hero-title">Sustainable Job Search<br><em>Performance Model™</em></h1>
+    <div class="hero-abbr">SJSPM™ · Phase II · Systems Model</div>
+    <p class="hero-sub">A six-pillar applied framework derived from CEM™ theory. SJSPM™ maps the behavioral, cognitive, and energetic architecture of high-sustainability job search performance — modeling how individuals preserve functional capacity under high-demand search conditions while producing superior employment outcomes.</p>
+    <div class="hero-pillars">
+      <span class="hero-pill hp1">P·I Energy Preservation</span>
+      <span class="hero-pill hp2">P·II Strategic Targeting</span>
+      <span class="hero-pill hp3">P·III Cognitive Ergonomics</span>
+      <span class="hero-pill hp4">P·IV Behavioral Sustainability</span>
+      <span class="hero-pill hp5">P·V Career Capital</span>
+      <span class="hero-pill hp6">P·VI Life Experience Preservation</span>
+    </div>
+  </div>
+</div>
+
+<!-- OVERVIEW -->
+<section id="overview">
+  <div class="wrap">
+    <div class="sec-label"><span>§ 1</span> Framework Overview</div>
+    <h2>What SJSPM™ Proposes</h2>
+    <p>The dominant job search literature treats the search process as a skills-and-strategy problem: build a better résumé, network more effectively, interview more precisely. SJSPM™ does not reject this — it subordinates it to a more fundamental question: <em>under what energetic conditions is the searcher operating when they execute those strategies?</em></p>
+    <p>SJSPM™ proposes that job search failure, underperformance, and settlement for suboptimal offers are frequently energy-mediated phenomena — not strategy failures. A depleted searcher executing a good strategy will produce inferior outcomes to an energy-intact searcher executing the same strategy. The model makes this mechanism explicit, measurable, and addressable.</p>
+
+    <div class="bridge">
+      <p>The Sustainable Job Search Performance Model™ operationalizes Career Energy Management™ theory within the specific high-demand context of occupational transition. Job search imposes simultaneous and often unrelenting demands across all five CEM™ energy domains — making it one of the highest-risk environments for cumulative energy depletion in a working adult's career lifecycle. SJSPM™ provides the practitioner and researcher with a structured, domain-specific framework for assessing, protecting, and deploying job search energy toward sustainable, high-quality employment outcomes.</p>
+      <span class="cite">SJSPM™ Framework Definition · Under CEM™ Theory · © Occupational Compliance and Readiness Consulting LLC</span>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="fb">SJSPM™ <em>Framework</em></div>
+  <div class="fm">
+    Phase II · Applied Model<br>
+    © Occupational Compliance and Readiness Consulting LLC
+  </div>
+</footer>
+
+<script>
+// Scroll progress indicator
+window.addEventListener('scroll', () => {
+  const scrollTop = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const scrolled = (scrollTop / docHeight) * 100;
+  document.getElementById('prog').style.width = scrolled + '%';
+});
+</script>
+
+</body>
+</html>
